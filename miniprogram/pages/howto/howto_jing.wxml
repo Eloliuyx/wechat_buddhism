@@ -1,0 +1,472 @@
+<!-- <page-meta>
+  <navigation-bar title="净修次第" back homeButton></navigation-bar>
+</page-meta> -->
+
+
+<view class="container">
+  <view class="title">次第进修指南 - 净修</view>
+  <view class="subtitle">学佛就是修行，而且是如佛所说地修行。</view>
+
+
+  <!-- 章节目录 -->
+  <view class="chapter-directory">
+    <button class="chapter-item" data-id="chapter1" bindtap="scrollToChapter">一、培养目标</button>
+    <button class="chapter-item" data-id="chapter2" bindtap="scrollToChapter">二、本院校风</button>
+    <button class="chapter-item" data-id="chapter3" bindtap="scrollToChapter">三、学佛要旨</button>
+    <button class="subchapter-item" data-id="subchapter31" bindtap="scrollToChapter">一、发菩提心</button>
+    <button class="subchapter-item" data-id="subchapter32" bindtap="scrollToChapter">二、正确知见</button>
+    <button class="subchapter-item" data-id="subchapter33" bindtap="scrollToChapter">三、解行并进</button>
+    <button class="subchapter-item" data-id="subchapter34" bindtap="scrollToChapter">四、出离三界</button>
+    <button class="chapter-item" data-id="chapter4" bindtap="scrollToChapter">四、怎样修学</button>
+    <button class="subchapter-item" data-id="subchapter41" bindtap="scrollToChapter">一、如说修行</button>
+    <button class="subchapter-item" data-id="subchapter42" bindtap="scrollToChapter">二、信解行证</button>
+    <button class="subchapter-item" data-id="subchapter43" bindtap="scrollToChapter">三、经论修习</button>
+    <button class="subchapter-item" data-id="subchapter44" bindtap="scrollToChapter">四、觉知念佛</button>
+    <button class="subchapter-item" data-id="subchapter45" bindtap="scrollToChapter">五、修学诀窍</button>
+    <button class="chapter-item" data-id="chapter5" bindtap="scrollToChapter">五、课程说明</button>
+    <button class="subchapter-item" data-id="subchapter51" bindtap="scrollToChapter">第一阶段 断恶行善</button>
+    <button class="subchapter-item" data-id="subchapter52" bindtap="scrollToChapter">第二阶段 持戒为本</button>
+    <button class="subchapter-item" data-id="subchapter53" bindtap="scrollToChapter">第三阶段 般若破妄</button>
+    <button class="subchapter-item" data-id="subchapter54" bindtap="scrollToChapter">第四阶段 极乐为归</button>
+
+
+    <!-- 可以继续添加更多章节 -->
+  </view>
+  
+  <!-- 章节内容 -->
+  <view class="chapter-content">
+    <!-- 第一章节内容 -->
+    <view id="chapter1" class="chapter">
+      <view class="chapter-title">一、培养目标</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>净修院的培养目标：解第一义，万念归一，一归于无，超离言思，定慧等持；牢牢掌握佛法基本理论，具备直接阅读经论原文的能力，为弘法利生打下坚实的基础。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔解第一义〕净宗大德王龙舒居士之《龙舒增广净土文》云：</text>
+          <text style="color: darkred;">“十六观经云：上品上生者，读诵大乘经典，解第一义。然则修上品者，佛之深旨不可不知。”</text>
+          <text>龙舒居士本人就是这样，做到了生死自在，预知时至，站着往生。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔十六观经〕即《观无量寿佛经》。此经说十六观，故亦称十六观经。〔第一义〕至高无上的义理，即诸法实相。佛言：</text>
+          <text style="color: darkred;">“一切诸法皆是虚假，随其灭处，是名为实，是名实相，是名法界，名毕竟智，名第一义谛，名第一义空。”</text>
+          <text>（《大般涅槃经·卷第四十》）</text>
+        </view>
+      </view>
+    </view>
+
+      <!-- 第二章节内容 -->
+      <view id="chapter2" class="chapter">
+      <view class="chapter-title">二、本院校风</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>本院校风：信因果，能刻苦，勿自欺。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔信因果〕印光大师云：</text>
+          <text style="color: darkred;">“因果者，圣人治天下，佛度众生之大权也。约佛法论，从凡夫地，乃至佛果，所有诸法，皆不出因果之外。”</text>
+          <text>（《印光法师文钞·挽回世道人心标本同治录序》）种瓜得瓜，种豆得豆，如是因，如是果。世人作恶，皆由不信因果所致。学佛人若不深信因果，并且贯彻在日常行持上，一切尽成戏论。虚云老和尚说：</text>
+          <text style="color: darkred;">“无论什麽人，尤其想用功办道的人，先要深信因果。若不信因果，妄作胡为，不要说办道不成功，三涂少他不了。”</text>
+          <text>（《禅堂开示》）〔三涂〕即三途：血途、刀途、火途。血途是畜生道，因畜生常在被杀，或互相吞食之处；刀途是饿鬼道，因饿鬼常在饥饿，或刀剑杖逼迫之处；火途是地狱道，因地狱常在寒冰，或猛火烧煎之处。此三途就是三恶道的别名。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔能刻苦〕能在枯燥、乏味、艰苦的大运动量训练中坚持下去。</text>
+          <text style="color: darkred;">“宝剑锋从磨砺出，梅花香自苦寒来。”</text>
+          <text>生命需要磨练，不断地挑战自己，超越自己。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔勿自欺〕不要自己欺骗自己。憨山大师云：</text>
+          <text style="color: darkred;">“既发信心，当行实行（就应当如佛所说地实际修行），万勿自欺。”</text>
+          <text>（《梦游集·示宜华众道人》）语云：</text>
+          <text style="color: darkred;">“掩目捕雀，是自欺也。”</text>
+          <text>微物尚不可欺以得志，况生死大事乎！〔掩目捕雀〕遮着眼睛捉麻雀。譬喻自己骗自己。〔微物尚不可欺以得志，况生死大事乎〕捉麻雀这种小事，尚且不可能通过自欺来达到目的，更何况了脱生死之大事，怎么可能通过自欺来达到目的呢？</text>
+        </view>
+      </view>
+      </view>
+
+
+      <!-- 第三章节内容 -->
+      <view id="chapter3" class="chapter">
+      <view class="chapter-title">三、学佛要旨</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>学佛的目的是：上求佛道，下化众生。这，也是每一个学佛人的伟大使命。那么，怎样来达到这一目的，完成这一使命呢？</text>
+        </view>      
+      </view>
+      </view>
+
+
+
+      <!-- 第三章第一小节内容 -->
+      <view id="subchapter31" class="chapter-subtitle">一、发菩提心</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>学佛，首先必须发菩提心，因为发菩提心是成佛度众生这一伟大使命的庄严誓言，是横渡生死苦海的灯塔，是乘风破浪的动力。</text>
+        </view>
+        <view class="paragraph">
+          <text>彻悟大师云：</text>
+          <text style="color: darkred;">“大心</text>
+          <text>（菩提心）</text>
+          <text style="color: darkred;">不发，则外不能感通诸佛，内不能契合本性；上不能圆成佛道，下不能广利群生。无始恩爱，何以解脱？无始冤愆，何以解释？积劫罪业，难以忏除。积劫善根，难已成熟。随所修行，多诸障缘。纵有所成，终堕偏小。故须称性发大菩提心也。”</text>
+          <text>（《彻悟大师遗集》）</text>
+        </view>
+        <view class="paragraph">
+          <text>省庵大师《劝发菩提心文》云：</text>
+          <text style="color: darkred;">“入道要门，发心为首；修行急务，立愿居先。愿立，则众生可度；心发，则佛道堪成。苟不发广大心，立坚固愿，则纵经尘劫，依然还在轮回；虽有修行，总是徒劳辛苦。故《华严经》云：‘忘失菩提心，修诸善法，是名魔业。’忘失尚尔，况未发乎？故知欲学如来乘，必先具发菩萨愿，不可缓也。”</text>
+        </view>
+        <view class="paragraph">
+          <text>彭际清《省庵法师遗书序》云：</text>
+          <text style="color: darkred;">“昔我世尊始成正觉，叹曰：‘奇哉！奇哉！无一众生而不具有如来智慧。但以妄想、颠倒、执著，不能证得。若离妄想，一切智、自然智、无碍智则得现前。’吾壹不解（我一直不理解）此诸众生于妄想执著，何苦而不离？于如来智慧，又何惮</text>
+          <text>（dàn，畏难）</text>
+          <text style="color: darkred;">而不证？卒</text>
+          <text>（zú，终于）</text>
+          <text style="color: darkred;">乃舍父逃逝，长劫漂流，甘为客作贱人，而不知反此？无他故，不觉而已矣！菩提心者，即觉之异名。才觉，则现前妄想执著，全是如来智慧。盖如来智慧无体，以众生妄想为体；众生妄想无体，以如来智慧为体。如水成波，全波是水。从本以来，毕竟当住无余涅槃故。然而觉与不觉之分，断不可以自瞒自昧者也。于此瞿然而思，砉</text>
+          <text>（xū，皮骨相离声）</text>
+          <text style="color: darkred;">然以解，则菩提心之发，自有沛然莫御者。此心既发，一切智、自然智、无碍智现前，又何用他求哉！”</text>
+        </view>
+      </view>
+
+   <!-- 第三章第二小节内容 -->
+   <view id="subchapter32" class="chapter-subtitle">二、正确知见</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>虚云老和尚说：</text>
+          <text style="color: darkred;">“修行无别修，只要识路头，路头若识得，生死一起休。”</text>
+          <text>《楞严经》云：</text>
+          <text style="color: darkred;">“因地不真，果招迂曲。”</text>
+          <text>因此，学佛人具备正确知见，至关重要。本院的课程安排，就是通过系统的修学，以建立正确的知见，并且落实在行持上。</text>
+        </view>
+        <view class="paragraph">
+          <text>其修学共分四个阶段：一、断恶行善；二、持戒为本；三、般若破妄；四、极乐为归。具体课程如下表：</text>
+        </view>
+        <view class="table">
+  <view class="row header">
+    <view class="cell">一、断恶行善</view>
+    <view class="cell">二、持戒为本</view>
+    <view class="cell">三、般若破妄</view>
+    <view class="cell">四、极乐为归</view>
+  </view>
+  <view class="row">
+    <view class="cell">第一学年</view>
+    <view class="cell">第二学年</view>
+    <view class="cell">第三、四学年</view>
+    <view class="cell">第五、六学年</view>
+  </view>
+  <view class="row">
+    <view class="cell">地藏菩萨本愿经</view>
+    <view class="cell">佛说四十二章经</view>
+    <view class="cell">金刚经</view>
+    <view class="cell">阿弥陀经</view>
+  </view>
+  <view class="row">
+    <view class="cell">了凡四训</view>
+    <view class="cell">八大人觉经</view>
+    <view class="cell">心经</view>
+    <view class="cell">念佛论</view>
+  </view>
+  <view class="row">
+    <view class="cell">俞净意公遇灶神记</view>
+    <view class="cell">佛遗教经</view>
+    <view class="cell">六祖坛经</view>
+    <view class="cell">禅净要旨</view>
+  </view>
+  <view class="row">
+    <view class="cell">王凤仪嘉言录</view>
+    <view class="cell">十善业道经</view>
+    <view class="cell">佛藏经选注</view>
+    <view class="cell">无量寿经会义</view>
+  </view>
+  <view class="row">
+    <view class="cell">太上感应篇</view>
+    <view class="cell">大念住经</view>
+    <view class="cell">起信论注</view>
+    <view class="cell">念佛三昧摸象记</view>
+  </view>
+</view>
+      </view>
+
+<!-- 第三章第三小节内容 -->
+<view id="subchapter33" class="chapter-subtitle">三、解行并进</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>学佛是一个转恶为善、转迷为悟、转凡成圣的过程，因此经论的修学，最终都要落实在行持（心念和行为）上。</text>
+        </view>
+        <view class="paragraph">
+          <text>修学的方法是：闻→思→修。闻，是听闻教法（包括阅读教法）；思，是思惟教法之义理；修，是按照教法之义理，切实行持。通过这一过程，将我们的无明知见，转化成正知正见，并落实在身（行为）、语、意上。在这个过程中，熏习是非常重要的，只有通过不断地熏习，才能悟入佛的知见，生起慧解，指导自己的行动。</text>
+        </view>
+        <view class="paragraph">
+          <text>对于初学者而言，直接从经论原文下手是相当困难的，最好从注释本开始。当具备一定能力之后，就要直接阅读经论原文，这样更容易生起慧解。所以在用注释本修学时，就要有意识地培养直接阅读经论原文的能力。本院的教材，就是这样设计的：帮助读懂所注释的经论，同时培养直接阅读其它经论原文的能力。</text>
+        </view>
+      </view>
+
+<!-- 第三章第四小节内容 -->
+<view id="subchapter34" class="chapter-subtitle">四、出离三界</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>《法华经》云：</text>
+          <text style="color: darkred;">“三界无安，犹如火宅。众苦充满，甚可怖畏。常有生老病死忧患，如是等火，炽然不息。”</text>
+          <text>所以，佛讲经说法四十九年，说羊车（声闻乘）、鹿车（缘觉乘）、牛车（菩萨乘）乃至大白牛车（佛乘），都是要救度众生出此三界火宅。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔三界〕欲界、色界、无色界。欲界是有淫食二欲的众生所住的世界，包括上自六欲天，中自人、畜生，下至饿鬼、地狱；色界是无淫食二欲，但还有色身的众生所住的世界，包括四禅十八天；无色界是已无色身，但住心识于深妙禅定的众生所住的世界，包括四空天（空无边天、识无边天、无所有天、非想非非想天）。此三界，都是凡夫生死轮回的境界，所以佛教行者首先是以超出三界为目的。</text>
+        </view>
+        <view class="paragraph">
+          <text>那么，怎样出离三界呢？答案是：念佛求生西方极乐世界，这是最易、最捷、最稳的途径。而念佛法门中，持名念佛又是最易、最捷、最稳者，古德赞为“径中又径（捷径中之捷径）”。</text>
+        </view>
+        <view class="paragraph">
+          <text>一切其它法门要出离三界都必须断尽烦恼，而持名念佛只要能够用佛号伏住烦恼，一心不乱，臨命終時就一定往生西方极乐世界。用佛号伏住烦恼，比起断尽烦恼来说，实在容易得太多太多。并且一旦往生到西方极乐世界，即证不退位，在阿弥陀佛、观世音菩萨和大势至菩萨的教导下，清净大海众菩萨的切磋帮助下，迅速成佛，滿菩提愿。所以，持名念佛是最为殊胜的了生出死法门。</text>
+        </view>
+        <view class="paragraph">
+          <text>持名念佛的具体方法甚多，其目标都是要达到一心不乱，以确保临终时阿弥陀佛前来接引。《佛说阿弥陀经》中，佛言：</text>
+          <text style="color: darkred;">“若有善男子善女人，闻说阿弥陀佛，执持名号，若一日、若二日，若三日，若四日，若五日，若六日，若七日，一心不乱，其人临命终时，阿弥陀佛，与诸圣众，现在其前。是人终时，心不颠倒，即得往生阿弥陀佛极乐国土。”</text>
+        </view>
+        <view class="paragraph">
+          <text style="font-weight: bold;">问：怎样能够达到念佛一心不乱？</text>
+          <text>答：达到念佛一心不乱的最大障碍，是妄念。在实修课程的教材《觉知念佛》一书中，详细分析了妄念产生的原因，以及如何有效地克服妄念；并且详细讲解了，怎样达到念佛一心不乱的具体修学步骤和方法。只要是真信切愿，刻苦努力，循序渐进，持之以恒，就一定能够达到念佛一心不乱。</text>
+        </view>
+        <view class="paragraph">
+          <text style="font-weight: bold;">问：“超出三界外，不在五行中”，是什么意思？</text>
+          <text>答：“三界”，就是前面所说的欲界、色界和无色界。“五行”是中国古代的哲学概念，指构造物质世界的五大元素：金、木、水、火、土。“超出三界外”，就是超出生死轮回；“不在五行中”，就是不受物质的障碍。</text>
+        </view>
+
+
+      </view>
+
+      <!-- 第四章节内容 -->
+      <view id="chapter4" class="chapter">
+      <view class="chapter-title">四、怎样修学</view>
+      </view>
+<!-- 第四章第一小节内容 -->
+      <view id="subchapter41" class="chapter-subtitle">一、如说修行</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>在阿弥陀经之玄奘大师译本《称赞净土佛摄受经》中，世尊开示道：</text>
+          <text style="color: darkred;">“汝等有情，皆应信受如是称赞不可思议佛土功德，一切诸佛摄受法门。”</text>
+          <text>所以，念佛求生净土是一切诸佛摄受之法门，而且世尊在此经中具体明确地开示了如何修持这一法门。</text>
+        </view>
+        <view class="paragraph">
+          <text>世尊在讲了</text>
+          <text style="color: darkred;">“若有净信诸善男子或善女人，得闻如是无量寿佛无量无边不可思议功德名号、极乐世界功德庄严；闻已思惟，若一日夜，或二或三，或四或五，或六或七，系念不乱。是善男子或善女人，临命终时，无量寿佛与其无量声闻弟子菩萨众俱，前后围绕来住其前，慈悲加祐，令心不乱。既舍命已，随佛众会，生无量寿极乐世界清净佛土”</text>
+          <text>，就立即说道：</text>
+          <text style="color: darkred;">“若有净信诸善男子或善女人，得闻如是无量寿佛不可思议功德名号、极乐世界净佛土者，一切皆应信受发愿，如说修行，生彼佛土。”</text>
+        </view>
+        <view class="paragraph">
+          <text>世尊在这里把信、愿、行讲得十方清楚：信，是“信受”；愿，是“发愿”；行，是“如说修行”——系念不乱。</text>
+        </view>
+        <view class="paragraph">
+          <text>当信、愿还仅只停留在头脑中时，这只是一种想法而已。必须把信、愿实践出来，这才是真信笃愿。所以，真信笃愿必然导致力行。若无切实精进的修行，何以证其所信？何以满其所愿？没有力行的信、愿不过是虚信浮愿而已。</text>
+        </view>
+        <view class="paragraph">
+          <text>在此经中，世尊反反复复、再三再四地强调要“如说修行”，并且明确的告诉我们：只要如说修行，就为十方诸佛所摄受，就一定往生西方极乐世界，就永不退转速证佛果，关切之情，溢于言表。世尊开示道：</text>
+        </view>
+        <view class="paragraph">
+          <view class="item level-1"><text style="color: darkred;">“若有净信诸善男子或善女人，得闻如是无量寿佛不可思议功德名号、极乐世界净佛土者，一切皆应信受发愿，如说修行，生彼佛土。”</text></view>
+        </view>
+        <view class="paragraph">
+          <view class="item level-1"><text style="color: darkred;">“如说行者，一切定于阿耨多罗三藐三菩提得不退转，一切定生无量寿佛极乐世界清净佛土。是故，舍利子。汝等有情，一切皆应信受领解，我及十方佛世尊语，当勤精进，如说修行，勿生疑虑。”</text></view>
+        </view>
+        <view class="paragraph">
+          <view class="item level-1"><text style="color: darkred;">“如说行者，一切定于阿耨多罗三藐三菩提，得不退转，一切定生无量寿佛极乐世界清净佛土。是故，舍利子。若有净信诸善男子或善女人，一切皆应于无量寿极乐世界清净佛土，深心信解，发愿往生，勿行放逸。”</text></view>
+        </view>
+        <view class="paragraph">
+          <view class="item level-1"><text style="color: darkred;">“于此杂染堪忍世界五浊恶时，若有净信诸善男子或善女人，闻说如是一切世间极难信法，能生信解，受持演说，如教修行，当知是人，甚为希有，无量佛所，曾种善根。是人命终，定生西方极乐世界，受用种种功德庄严清净佛土大乘法乐。”</text></view>
+        </view>
+        <view class="paragraph">
+          <text>因此，学人一定要深心信解“如说修行”的含义，并付诸行动，惟日孜孜，一往无前。《维摩诘经》云：</text>
+          <text style="color: darkred;">“欲得净土，当净其心，随其心净，即佛土净。”</text>
+          <text>众生之心如水，阿弥陀佛如月。心水澄清，与净土（极乐世界）相应，则佛月现前；若心水浊乱，与秽土（娑婆世界）相应，则佛月不彰。所以，念佛法门是要都摄六根，净念相继，令浊乱的心水澄清（一心不乱），进而去泥纯水（念佛三昧）。</text>
+        </view>
+        
+      </view>
+
+
+      <!-- 第四章第二小节内容 -->
+      <view id="subchapter42" class="chapter-subtitle">二、信解行证</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>本院的修学方式是：自修、自律、自验，落实好信、解、行、证四大环节。</text>
+        </view>
+        <view class="paragraph">
+          <text>本院的修学，分经论修习和禅修两大部分。经论修习的教材，是课程表中所列之书。禅修分观心和参禅两门，观心的教材是《白云心要（观心宝笈）》，参禅的教材是《觉知禅》一书。</text>
+        </view>
+        <view class="paragraph">
+          <text>修学的过程是：闻→思→修。闻，是听闻教法；思，是思惟教法之义理；修，是按照教法之义理，切实行持。这一过程是要将我们无明的知见，转化成正知正见，并落实在身（行为）、语、意上。在这个过程中，熏习是非常重要的，只有通过不断地熏习，才能悟入佛的知见，生起慧解，指导自己的行动。</text>
+        </view>
+        <view class="paragraph">
+          <text>在戒定慧三学中，戒是基础，务必严持五戒十善。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔三学〕戒学、定学、慧学。戒即禁戒，能防止人们造作一切身口意的恶业；定即禅定，能使人们静虑澄心；慧即智慧，能使人们发现真理而断愚痴。修此三学，可以由戒得定，由定发慧，最终获得无漏道果，所以三学又名为“三无漏学”。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔无漏〕漏者烦恼之异名，漏泄之义。贪嗔等烦恼，日夜由眼耳等六根门漏泄流注而不止，谓之漏。又漏为漏落之义，烦恼能令人漏落于三恶道谓之漏。因之谓有烦恼之法云有漏，离烦恼之法云无漏。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔五戒〕不杀生、不偷盗、不邪淫、不妄语、不饮酒。不杀生是不杀害有生命的动物；不偷盗是不盗取别人的财物；不邪淫是不作夫妇以外的淫事；不妄语是不说欺诳骗人的话；不饮酒是不吸食含有麻醉人性的酒类或毒品。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔十善〕十种善业，即不杀生、不偷盗、不邪淫、不妄语、不两舌、不恶口、不绮语、不贪、不嗔、不痴。〔两舌〕搬弄是非，离间他人。</text>
+        </view>
+        <view class="paragraph">
+          <text>〔绮语〕杂秽语、无义语以及含淫意之言词。</text>
+        </view>
+      </view>
+
+   <!-- 第四章第三小节内容 -->
+   <view id="subchapter43" class="chapter-subtitle">三、经论修习</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+        <text>本院的修学，分经论修习和觉知禅两大部分。经论修习的教材是课程表中所列之书。</text>
+        <text>学习一门教材时，先要将教材划分成若干个单元，例如以品或章来划分。</text>
+        <text>首先，对每一个单元：</text>
+      </view>
+        <view class="paragraph">
+          <view class="item level-1"><text style="font-weight: bold;">1、粗读。</text>将这一单元的教材读三遍，建立起一个总体认识，清楚地知道本单元的具体内容是什么。</view>
+        <view class="item level-1"><text style="font-weight: bold;">2、细读。</text>	划分段落，写出段落大意，和本单元的中心思想，并且对难字、难句都要清楚明白。</view>
+        <view class="item level-1"><text style="font-weight: bold;">3、精读。</text>	《通过精读，术语名词的含义要记得住，能够背诵精要的句偈，并且能够讲述本单元，特别是对难点难句的阐发。</view>
+        </view>
+        <view class="paragraph">
+          <text>然后：</text>
+        </view>
+        <view class="paragraph">
+          <view class="item level-1"><text style="font-weight: bold;">4、全书融会贯通。</text>其要求是：写出全书的中心思想和脉络，能够不看教材而概述全书。</view>
+        <view class="item level-1"><text style="font-weight: bold;">5、熏习。</text>	通过不断地熏习，悟入佛的知见，生起慧解，指导自己的行动。这一步非常重要，要时时在境缘上勘验、转化、提升。</view>
+        </view>
+      </view>
+
+<!-- 第四章第四小节内容 -->
+<view id="subchapter44" class="chapter-subtitle">四、觉知念佛</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>觉知念佛的教材是《觉知念佛》一书。其修学纲领是：真信切愿，一心不乱。所以，环环都是在真信、切愿和一心不乱上做功夫。本书是以章为单元来修学。</text>
+        </view>
+        <view class="paragraph">
+          <text>经论修习方法，见上一章。在实修部分，觉知念佛的修学有一个大体上的划分：</text>
+        </view>
+        <view class="paragraph">
+          <view class="item level-1">觉知动作和觉知感受，修学一年。</view>
+        <view class="item level-1">觉知呼吸，修学一年。</view>
+        <view class="item level-1">觉知心念，修学两年。</view>
+        <view class="item level-1">觉知念佛，修学两年。</view>
+        </view>
+        <view class="paragraph">
+          <text>至于具体的修学方法和注意事项，在《觉知念佛》一书中都有详细说明，其指导思想是：从难，从严，从实战出发，觉知连绵不断。</text>
+        </view>
+      </view>
+
+
+<!-- 第四章第四小节内容 -->
+<view id="subchapter45" class="chapter-subtitle">五、修学诀窍</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>修学成就的诀窍：强烈的愿望（如救头然），正确的方法，勤学、苦练、聚焦、领悟。从难从严，从实战出发，大运动量训练。反复练习和运用，知难而上，在挑战中不断地增强自信心和勇气，加强心理素质的磨砺。累时、困时、难时，要给自己鼓气；诱惑来时、恼怒起时、枯燥烦闷无味时，要自我告诫：人要没有决心和意志力，一事无成！</text>
+        </view>
+        <view class="paragraph">
+          <text>困难的出现，正是前进之转机。要正视困难，并且找出解决困难的途径，奋力实施，就会有新的突破。只要方法得当，加上勤学苦练，任何一个人都可以在修学上取得卓越的成就——这是千百年来祖师大德以身作则，为我们指示的金光大道。</text>
+        </view>
+        <view class="paragraph">
+          <text>总的来说，由于修学方式是自学自修，所以自己就是自己的教练，因此自律和自验特别重要，必须严格要求自己，控制好进度和修学效果，切忌一曝十寒和煮夹生饭。时常回想一下当初在学校读书时，是怎样学习的？想一想当时课程是如何安排，老师是如何讲解，以及自己是如何复习，如何完成作业，如何通过考试？这是很有帮助的。</text>
+        </view>
+      </view>
+
+<!-- 第五章节内容 -->
+<view id="chapter5" class="chapter">
+      <view class="chapter-title">五、课程说明</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>《观无量寿佛经》中，佛言：</text>
+          <text style="color: darkred;">“欲生彼国者，当修三福：一者、孝养父母，奉事师长，慈心不杀，修十善业；二者、受持三归，具足众戒，不犯威仪；三者、发菩提心，深信因果，读诵大乘，劝进行者。如此三事，名为净业。”“汝今知不？此三种业，乃是过去、未来、现在三世诸佛，净业正因。”</text>
+          <text>因此，念佛人必须遵修净业三福，这是净宗修学之基础。“如说修行网上佛学院”的课程，就是根据“净业三福，求生极乐”的构架来编排的。</text>
+        </view>      
+
+        <view class="paragraph">
+          <text>课程的第一阶段是“断恶行善”，其修学的核心是：“孝养父母，奉事师长，慈心不杀，修十善业。”第二阶段是“持戒为本”，其修学的核心是：“受持三归，具足众戒，不犯威仪。”第三阶段是“般若破妄”，其修学的核心是：“发菩提心，深信因果，读诵大乘，劝进行者。”第四阶段是“极乐为归”，其修学的核心是：信愿持名，一心不乱。</text>
+        </view>    
+      </view>
+      </view>
+
+
+
+      <!-- 第五章第一小节内容 -->
+      <view id="subchapter51" class="chapter-subtitle">第一阶段 断恶行善</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>本阶段修学的课程是：《地藏菩萨本愿经》、《了凡四训》、《俞净意公遇灶神记》和《太上感应篇》。</text>
+        </view>
+        <view class="paragraph">
+          <text>修学的核心是：“孝养父母，奉事师长，慈心不杀，修十善业。”</text>
+        </view>
+        <view class="paragraph">
+          <text>教材是：《地藏菩萨本愿经讲录》、《了凡四训注释》、《俞净意公遇灶神记注释》和《太上感应篇注释》。</text>
+        </view>
+        <view class="paragraph">
+          <text>实修：</text>
+          <view class="item level-1">一、闻思修</view>
+          <view class="item level-1">二、每日读诵《地藏菩萨本愿经》一部</view>
+          <view class="item level-1">三、念地藏菩萨圣号一万遍</view>
+          <view class="item level-1">四、觉知动作（内容详见《觉知念佛》一书）</view>
+        </view>
+      </view>
+
+<!-- 第五章第二小节内容 -->
+<view id="subchapter52" class="chapter-subtitle">第二阶段 持戒为本</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>本阶段修学的课程是《四十二章经》、《八大人觉经》、《十善业道经》、《佛遗教经》和《大念住经》。</text>
+        </view>
+        <view class="paragraph">
+          <text>修学的核心是：“受持三归，具足众戒，不犯威仪。”</text>
+        </view>
+        <view class="paragraph">
+          <text>教材是：《四十二章经注》、《八大人觉经注》、《十善业道经注》、《佛遗教经注》和《大念住经注》。</text>
+        </view>
+        <view class="paragraph">
+          <text>实修：</text>
+          <view class="item level-1">一、闻思修</view>
+          <view class="item level-1">二、轮流读诵《四十二章经》、《八大人觉经》、《十善业道经》、《佛遗教经》和《大念住经》，每天一部</view>
+          <view class="item level-1">三、觉知呼吸、觉知感受（内容详见《觉知念佛》一书）</view>
+        </view>
+      </view>
+
+<!-- 第五章第三小节内容 -->
+<view id="subchapter53" class="chapter-subtitle">第三阶段 般若破妄</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>本阶段修学的课程是《金刚经》、《心经》、《六祖坛经》和《起信论》。</text>
+        </view>
+        <view class="paragraph">
+          <text>修学的核心是：“发菩提心，深信因果，读诵大乘，劝进行者。”</text>
+        </view>
+        <view class="paragraph">
+          <text>教材是：《金刚经精解》、《心经精解》、《六祖坛经精解》和《起信论注》。</text>
+        </view>
+        <view class="paragraph">
+          <text>实修：</text>
+          <view class="item level-1">一、闻思修</view>
+          <view class="item level-1">二、每天读诵《金刚经》和《心经》各一部</view>
+          <view class="item level-1">三、觉知心念（内容详见《觉知念佛》一书）</view>
+        </view>
+      </view>
+
+<!-- 第五章第四小节内容 -->
+<view id="subchapter54" class="chapter-subtitle">第四阶段 极乐为归</view>
+      <view class="chapter-text">
+        <view class="paragraph">
+          <text>本阶段修学的课程是《称赞净土佛摄受经注》、《念佛论》、《禅净要旨》、《无量寿经会义》和《念佛三昧摸象记》。</text>
+        </view>
+        <view class="paragraph">
+          <text>修学的核心是：信愿持名，一心不乱。</text>
+        <view class="paragraph">
+          <text>教材是：《阿弥陀经要解注》（附：《西方发愿文注》）、《念佛论》、《禅净要旨》和《念佛三昧摸象记精解》。</text>
+        </view>
+        <view class="paragraph">
+          <text>实修：</text>
+          <view class="item level-1">一、闻思修</view>
+          <view class="item level-1">二、每天读诵《称赞净土佛摄受经》、《金刚经》和《心经》各一部</view>
+          <view class="item level-1">三、觉知念佛（内容详见《觉知念佛》一书）。</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+  

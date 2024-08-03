@@ -1,0 +1,35 @@
+<!-- <page-meta>
+  <navigation-bar title="如说修行" back homeButton></navigation-bar>
+</page-meta> -->
+<view class="container">
+  <!-- 主页标题 -->
+  <view class="main-title">如说修行 | 次第佛学</view>
+  <!-- 副标题 -->
+  <view class="subtitle">其修也，有从入之阶；其证也，有自得之实。</view>
+  <!-- 阶段标题 -->
+  <view class="howto">
+  <text >次第进修指南:   </text>
+  <text class="howto_selection" bindtap="navigateToHowto" data-howto="howto_chan" >禅修</text>
+  <text bindtap="navigateToHowto"> | </text>
+  <text class="howto_selection" bindtap="navigateToHowto" data-howto="howto_jing" >净修</text>
+  </view>
+
+    <!-- 阶段按钮列表 -->
+    <view class="step-list">
+    <button bindtap="navigateToSyllabus" data-syllabus="stage1" class="step-list1">第一阶段：断恶行善</button>
+    <button bindtap="navigateToSyllabus" data-syllabus="stage2" class="step-list2"> 第二阶段：持戒为本</button>
+    <button bindtap="navigateToSyllabus" data-syllabus="stage3" class="step-list3">第三阶段：般若破妄</button>
+    <button bindtap="navigateToSyllabus" data-syllabus="stage4a" class="step-list4">第四阶段（禅修路线）：定慧等持</button>
+    <button bindtap="navigateToSyllabus" data-syllabus="stage4b" class="step-list4">第四阶段（净修路线）：极乐为归</button>
+  </view>
+   <!-- 插入图片 -->
+   <image class="footer-image" src="buddha.jpg" mode="widthFix"></image>
+  <!-- 页脚部分 -->
+  <view class="footer">
+    声明：本小程序永久免费。
+    <view>此中全部内容源自如说修行网上佛学院的官方网址。</view>
+    <view id="caveat">当勤精进，如救头燃，但念无常，慎勿放逸！</view>
+    <view class="message"><text bindtap="navigateToMessage">点击此处给后台留言</text></view>
+  </view>
+
+</view>

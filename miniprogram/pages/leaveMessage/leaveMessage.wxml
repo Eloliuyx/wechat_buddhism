@@ -1,0 +1,13 @@
+<view class="page-container">
+  <view class="form-group">
+    <input class="input" placeholder="请输入您的称呼" bindinput="handleNameInput" value="{{name}}" />
+  </view>
+  <view class="form-group">
+    <input class="input" placeholder="请输入您的联系方式" bindinput="handleContactInput" value="{{contact}}" />
+  </view>
+  <view class="form-group textarea-group">
+    <label class="label">留言内容</label>
+    <textarea class="textarea" placeholder="请输入您的留言内容" bindinput="handleMessageInput" value="{{message}}"></textarea>
+  </view>
+  <button class="submit-button" bindtap="submitMessage">提交留言</button>
+</view>

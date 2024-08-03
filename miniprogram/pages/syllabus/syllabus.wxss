@@ -1,0 +1,74 @@
+/* Container styling */
+.container {
+  padding: 20px;
+  line-height: 1.8em;
+}
+
+/* Syllabus title styling */
+.syllabus-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.syllabus-textbook-subtitle, .additional-textbook-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Syllabus goal styling */
+.syllabus-goal {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #666;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Syllabus semester styling */
+.syllabus-semester {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+/* Syllabus homework styling */
+.syllabus-homework {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: darkred;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+/* Directory styling */
+.directory-item, .additional-textbook {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.directory-item-title, .additional-textbook-title {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #007ACC;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.directory-item-title:hover, .additional-textbook-title:hover {
+  background-color: #e0e0e0;
+}
+
+.directory-item-content, .additional-textbook-content {
+  padding: 5px;
+  color: rgb(61, 61, 61);
+}

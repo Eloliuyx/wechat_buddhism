@@ -1,0 +1,110 @@
+.container {
+  padding: 20rpx;
+}
+
+.main-title {
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50rpx;
+}
+
+.subtitle {
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  color: #666;
+}
+
+.step-subtitle {
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  color: brown;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.howto {
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  color: rgb(61, 61, 61);
+}
+
+.howto_selection{
+  font-weight: bold;
+  color:orange;
+  text-decoration: underline;
+}
+
+.step-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.step-list button {
+  width: 100%;
+  margin: 10rpx 0;
+  padding: 25rpx;
+  color: white;
+  border: none;
+  border-radius: 20rpx;
+  font-size: 30rpx;
+  box-shadow: 0 10rpx 20rpx rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.step-list1{
+  background-color: #007ACC;
+}
+
+.step-list2{
+  background-color: #0266a8;
+}
+
+.step-list3{
+  background-color: #004877;
+}
+
+.step-list4{
+  background-color: #012b46;
+}
+
+.step-list button:hover {
+  background-color: #005999;
+}
+
+
+.scripture-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50rpx;
+}
+
+.footer {
+  margin-top: 5px;
+  font-size: 24rpx;
+  text-align: center;
+  color: #888;
+  white-space: pre-line;
+}
+
+.footer a {
+  color: #007ACC;
+  text-decoration: underline;
+}
+
+.footer-image {
+  width: 22%;
+  margin-top: 20px;
+}
+.message{
+  text-decoration: underline;
+  color:darkred;
+}
+#caveat {
+  font-weight: bold;
+}

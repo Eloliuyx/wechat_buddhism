@@ -1,0 +1,61 @@
+<!--定义了"次第进修"页面的结构，显示每个阶段的课程。-->
+<!-- <page-meta>
+  <navigation-bar title="次第进修" back homeButton></navigation-bar>
+</page-meta> -->
+<view class="container">
+  <!-- 题目 -->
+  <view class="syllabus-title">{{syllabus.title}}</view>
+  
+  <!-- 目标 -->
+  <block wx:if="{{syllabus.goal}}">
+    <view class="syllabus-goal">{{syllabus.goal}}</view>
+  </block>
+  
+  <view class="syllabus-semester">{{syllabus.semester}}</view>
+
+  <!-- 目录 -->
+  <view class="syllabus-textbook-subtitle" wx:if="{{syllabus.textbooks.subtitle}}">
+    {{syllabus.textbooks.subtitle}}
+  </view>
+  <view class="directory">
+  <!--创建了一个包含经文按钮的列表。每个按钮都有一个bindtap属性，绑定了selectScripture函数，并通过data-scripture传递了相应的经文名称。-->
+  <block wx:for="{{sections}}" wx:key="index">
+    <view class="directory-item" wx:if="{{item.title}}">
+      <button class="directory-item-title" bindtap="selectScripture" data-scripture="{{item.title}}">
+        {{item.title}}
+      </button>
+      <block wx:for="{{item.content}}" wx:key="contentIndex">
+        <view class="directory-item-content" wx:if="{{item}}">
+          {{item}}
+        </view>
+      </block>
+    </view>
+  </block>
+</view>
+
+  <!-- 额外教材 -->
+  <view class="syllabus-textbook-subtitle" wx:if="{{syllabus.additional_textbook.subtitle}}">
+    {{syllabus.additional_textbook.subtitle}}
+  </view>
+  <block wx:for="{{syllabus.additional_textbook.sections}}" wx:key="index">
+    <view class="additional-textbook" wx:if="{{item.title}}">
+      <button class="additional-textbook-title" bindtap="selectScripture" data-scripture="{{item.title}}">
+        {{item.title}}
+      </button>
+      <block wx:for="{{item.content}}" wx:key="contentIndex">
+        <view class="additional-textbook-content" wx:if="{{item}}">
+          {{item}}
+        </view>
+      </block>
+    </view>
+  </block>
+
+  <!-- 作业 -->
+  <view class="syllabus-homework">
+    <block wx:for="{{syllabus.homework}}" wx:key="index">
+      <view class="homework-item" wx:if="{{item}}">
+        {{item}}
+      </view>
+    </block>
+  </view>
+</view>

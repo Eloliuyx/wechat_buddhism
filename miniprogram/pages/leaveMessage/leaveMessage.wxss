@@ -1,0 +1,69 @@
+/* 只在当前页面覆盖 .container 样式 */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40rpx;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 500rpx; /* 确保 form-group 不会太宽 */
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.form-group.textarea-group {
+  display: block; /* 保持 textarea 的 form-group 为 block 显示 */
+}
+
+.label {
+  display: block;
+  width: 100px; /* 设置标签的固定宽度 */
+  font-weight: bold;
+  font-size: 36rpx;
+  text-align: left; /* 标签左对齐 */
+  margin-top: 40px;
+}
+
+
+.input {
+  flex-grow: 1; /* 让输入框占满剩余空间 */
+  padding: 10rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+  font-size: 36rpx;
+  box-sizing: border-box; /* 包含 padding 和 border 在宽度内 */
+  min-height: 80rpx;
+}
+
+.textarea {
+  margin-top: 10px;
+  width: 100%; /* 设置 textarea 宽度为100% */
+  max-width: 500rpx; /* 确保 textarea 不会太宽 */
+  height: 300rpx; /* 可以根据需要调整高度 */
+  padding: 10rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+  font-size: 36rpx;
+  box-sizing: border-box; /* 包含 padding 和 border 在宽度内 */
+}
+
+.submit-button {
+  width: 100%; /* 设置 button 宽度为100% */
+  max-width: 500rpx; /* 确保 button 不会太宽 */
+  padding: 10rpx;
+  background-color: #007ACC;
+  color: white;
+  border: none;
+  border-radius: 5rpx;
+  font-size: 36rpx;
+  box-sizing: border-box; /* 包含 padding 和 border 在宽度内 */
+  text-align: center;
+  margin-top: 20px;
+}
